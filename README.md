@@ -1,1 +1,9 @@
-"# cwdocs" 
+# Installation
+
+```javascript
+    function() {
+        test();
+    }
+```
+
+# Usage
