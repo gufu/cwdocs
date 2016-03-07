@@ -25,8 +25,15 @@ Go to your local directory, for example `c:\docs\` and clone this git repository
 ```
 $ git clone https://github.com/gufu/cwdocs.git
 ```
-While in `c:\docs\` folder run `mkdocs serve` command to start your local preview of CWDocs page.
-
-
 
 # Usage
+In your root docs folder run `$ mkdocs serve` command to start your local preview of CWDocs page.
+```
+$ mkdocs serve
+Running at: http://127.0.0.1:8000/
+```
+To build CWDocs for production usage, run:
+```
+$ mkdocs build --clean
+```
+As a result, `site` folder will be created with static production version of CWDocs.
