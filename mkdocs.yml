@@ -1,0 +1,15 @@
+site_name: Cineworld Website Docs
+theme: material
+extra_css: ['google-code-prettify/prettify.css', 'desert.css', 'extra.css']
+extra_javascript: ['js/jquery-2.2.1.min.js', 'google-code-prettify/prettify.js', 'js/scripts.js']
+site_favicon: favicon.png
+markdown_extensions: [sane_lists, fenced_code]
+extra:
+    version: '0.1.0'
+    logo: 'logo.png'
+    palette:
+        primary: 'Red'
+        accent: 'Indigo'
+    font:
+        text: 'Open Sans'
+        code: 'Droid Sans Mono'

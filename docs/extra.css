@@ -1,0 +1,11 @@
+.article {
+    font-size: 13px;
+    line-height: 1.2em;
+}
+.article pre {
+    background: #212121;
+}
+pre .tag,
+pre .kwd {
+    font-weight: normal;
+}
